@@ -40,21 +40,21 @@ Created on Sat Jan 20 22:32:31 2018
 #
 #python_list = [1,2,3,4,5]
 
-class Calculate:
-    name = 'Good Calculate'
-    price = 18
-    def add(self,x,y):
-        result = x+y
-        print(result,'The name is',self.name)
-    def minus(self,x,y):
-        result = x-y
-        print(result)
-    def times(self,x,y):
-        result = x*y
-        print(result)
-    def divide(self,x,y):
-        result = x/y
-        print(result)
+#class Calculate:
+#    name = 'Good Calculate'
+#    price = 18
+#    def add(self,x,y):
+#        result = x+y
+#        print(result,'The name is',self.name)
+#    def minus(self,x,y):
+#        result = x-y
+#        print(result)
+#    def times(self,x,y):
+#        result = x*y
+#        print(result)
+#    def divide(self,x,y):
+#        result = x/y
+#        print(result)
 
 #a_input = input('Please input a number:')
 #if a_input == '1':
@@ -162,8 +162,5 @@ class Calculate:
 #     a_dicit1 = pickle.load(file)
 # =============================================================================
      
-#char_list=['a','b','a','c','r','d','r']
-#print(set(char_list))
-
-
-
+#char_list=['a','b','a','c','r','d']
+#a = list(set(char_list))
